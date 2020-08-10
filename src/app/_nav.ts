@@ -97,6 +97,33 @@ export const navItems: INavData[] = [
     ]
   },
   {
+    name: 'Master',
+    url: '/base',
+    icon: 'icon-layers',
+    children: [
+      {
+        name: 'Budget',
+        url: '/base/cards',
+        // icon: 'icon-puzzle'
+      },
+      {
+        name: 'Unit',
+        url: '/base/carousels',
+        // icon: 'icon-puzzle'
+      },
+      {
+        name: 'Kategori',
+        url: '/base/collapses',
+        // icon: 'icon-puzzle'
+      },
+      {
+        name: 'Barang',
+        url: '/base/forms',
+        // icon: 'icon-puzzle'
+      }
+    ]
+  },
+  {
     name: 'Buttons',
     url: '/buttons',
     icon: 'icon-cursor',
@@ -188,6 +215,15 @@ export const navItems: INavData[] = [
       variant: 'info',
       text: 'NEW'
     }
+  },
+  {
+    name: 'Widgets',
+    url: '/widgets',
+    icon: 'icon-calculator',
+    // badge: {
+    //   variant: 'info',
+    //   text: 'NEW'
+    // }
   },
   {
     divider: true
