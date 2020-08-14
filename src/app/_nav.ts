@@ -98,27 +98,27 @@ export const navItems: INavData[] = [
   },
   {
     name: 'Master',
-    url: '/base',
+    url: '/master',
     icon: 'icon-layers',
     children: [
       {
         name: 'Budget',
-        url: '/base/cards',
+        url: '/master/cards',
         // icon: 'icon-puzzle'
       },
       {
         name: 'Unit',
-        url: '/base/carousels',
+        url: '/master/carousels',
         // icon: 'icon-puzzle'
       },
       {
         name: 'Kategori',
-        url: '/base/collapses',
+        url: '/master/collapses',
         // icon: 'icon-puzzle'
       },
       {
         name: 'Barang',
-        url: '/base/forms',
+        url: '/master/forms',
         // icon: 'icon-puzzle'
       }
     ]
