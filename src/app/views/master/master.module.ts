@@ -5,6 +5,11 @@ import { NgModule } from '@angular/core';
 
 import { CardsComponent } from './cards.component';
 
+import { BudgetsComponent } from './budgets.component';
+
+import { CategoriesComponent } from './categories.component';
+import { ProductsComponent } from './products.component';
+
 // Forms Component
 import { FormsComponent } from './forms.component';
 
@@ -64,6 +69,9 @@ import { MasterRoutingModule } from './master-routing.module';
   ],
   declarations: [
     CardsComponent,
+    BudgetsComponent,
+    CategoriesComponent,
+    ProductsComponent,
     FormsComponent,
     // SwitchesComponent,
     // TablesComponent,

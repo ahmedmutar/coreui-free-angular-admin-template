@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { CardsComponent } from './cards.component';
+import { BudgetsComponent } from './budgets.component';
+import { CategoriesComponent } from './categories.component';
+import { ProductsComponent } from './products.component';
 import { FormsComponent } from './forms.component';
 // import { SwitchesComponent } from './switches.component';
 // import { TablesComponent } from './tables.component';
@@ -18,18 +21,18 @@ const routes: Routes = [
   {
     path: '',
     data: {
-      title: 'Base'
+      title: 'Master'
     },
     children: [
       {
         path: '',
-        redirectTo: 'cards'
+        redirectTo: 'budgets'
       },
       {
-        path: 'cards',
-        component: CardsComponent,
+        path: 'budgets',
+        component: BudgetsComponent,
         data: {
-          title: 'Cards'
+          title: 'Budget'
         }
       },
       {
@@ -68,10 +71,17 @@ const routes: Routes = [
         }
       },
       {
-        path: 'collapses',
-        component: CollapsesComponent,
+        path: 'categories',
+        component: CategoriesComponent,
         data: {
-          title: 'Collapses'
+          title: 'Categories'
+        }
+      },
+      {
+        path: 'products',
+        component: ProductsComponent,
+        data: {
+          title: 'Products'
         }
       },
       // {

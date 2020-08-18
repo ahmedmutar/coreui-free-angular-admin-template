@@ -113,12 +113,12 @@ export const navItems: INavData[] = [
       },
       {
         name: 'Kategori',
-        url: '/master/collapses',
+        url: '/master/categories',
         // icon: 'icon-puzzle'
       },
       {
         name: 'Barang',
-        url: '/master/forms',
+        url: '/master/products',
         // icon: 'icon-puzzle'
       }
     ]
